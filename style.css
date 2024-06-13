@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/netflix.jpg");
+    height: 100vh;
+    font-family: sans-serif;
+    color: #727273;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.284);
+    width: 100;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.netflix-logo{
+    width: 10rem;
+    position: absolute;
+    top: 1.3rem;
+    left: 2rem;
+}
+
+#formContainer{
+    background-color: rgba(0, 0, 0, 0.537);
+    height: 90vh;
+    width:30vw;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#formContainer > h1{
+    color: white;
+}
+
+#inputContainer{
+    height:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pass{
+    margin-bottom: 1rem;
+}
+
+#inputContainer > input{
+    padding: 0.9rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #323332;
+    color: #8c8c8c;
+}
+input[type="submit"]{
+background-color: red !important;
+font-weight: bold;
+color: white !important;
+font-size: medium;
+cursor: pointer;
+}
+#formRow{
+    display: flex;
+    justify-content: space-between;
+}
+input [type="checkbox"]{
+    accent-color: red;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#footer{
+    height: 5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
